@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace ConsoleApp14
 {
@@ -180,6 +181,178 @@ namespace ConsoleApp14
             //    }
             //    Console.WriteLine();
             //}
+
+            //int[] myArray;         
+            //myArray = new int[10];
+            //myArray[1] = 3;
+            //myArray[0] = 10;
+            //int a = myArray[0];       
+            //Console.WriteLine(a);
+
+            //int count = int.Parse(Console.ReadLine());
+            //int[] myArray = new int[count];
+            //for(int i = 0; i < myArray.Length; i++)
+            //{
+            //    Console.WriteLine(myArray[i]);
+            //}
+            //№7
+            //Console.WriteLine("Введите количество цифр в массиве");
+            //int count = int.Parse(Console.ReadLine());
+            //int[] myArray = new int[count];
+
+            //for (int i = 0; i < myArray.Length; i++)
+            //{
+            //    Console.WriteLine($"Введите элемент массива с индексом: {i}");
+            //    myArray[i] = int.Parse(Console.ReadLine());
+            //}
+
+            //Console.WriteLine("Ваш массив: ");
+            //for (int i = 0; i < myArray.Length; i++)
+            //{
+            //    Console.WriteLine(myArray[i]);
+            //}
+
+            //int[] myArray = new int[] { 10, 28, 45, 14, 67 };
+            //Console.WriteLine("Ваш массив: ");
+            //for (int i = 0; i < myArray.Length; i++)
+            //{
+            //    Console.WriteLine(myArray[i]);
+            //}
+            //Console.WriteLine("Массив в обратном порядке:");
+            //for (int i = myArray.Length - 1; i >= 0; i--)
+            //{
+            //    Console.WriteLine(myArray[i]);
+            //}
+
+            //Console.WriteLine("Введите количество цифр в массиве");
+            //int count = int.Parse(Console.ReadLine());
+            //int[] myArray = new int[count];
+
+            //for (int i = 0; i < myArray.Length; i++)
+            //{
+            //    Console.WriteLine($"Введите элемент массива с индексом: {i}");
+            //    myArray[i] = int.Parse(Console.ReadLine());
+            //}
+
+            //Console.WriteLine("Ваш массив: ");
+            //for (int i = 0; i < myArray.Length; i++)
+            //{
+            //    Console.WriteLine(myArray[i]);
+            //}
+            //Console.WriteLine($"Сумма четных чисел в массиве: {myArray.Where(i => i % 2 == 0).Sum()}");
+
+            //Console.WriteLine("Введите количество цифр в массиве");
+            //int count = int.Parse(Console.ReadLine());
+            //int[] myArray = new int[count];
+
+            //for (int i = 0; i < myArray.Length; i++)
+            //{
+            //    Console.WriteLine($"Введите элемент массива с индексом: {i}");
+            //    myArray[i] = int.Parse(Console.ReadLine());
+            //}
+
+            //Console.WriteLine("Ваш массив: ");
+            //for (int i = 0; i < myArray.Length; i++)
+            //{
+            //    Console.WriteLine(myArray[i]);
+            //}
+            //Console.WriteLine($"Наименьшее число массива: {myArray.Min()}");
+
+            //int[] myArray = { 11, 11, 12, 16, 18, 20, 11, 12, 16 };
+            //int[] res = myArray.OrderByDescending(i =>i).ToArray();
+            //for(int i = 0; i < res.Length; i++)
+            //{
+            //    Console.WriteLine(res[i]);
+            //}
+
+            //int[] myArray = { 11, 11, 12, 16, 18, 20, 11, 12, 16, 66, 78, 56, 89, 100 };
+            //int res = Array.FindIndex(myArray, i => i == 66);
+
+            //int[,] myArray = new int[,]
+            //{
+            //    {1, 2, 3, 7, 4 },
+            //    {2, 1, 5, 8, 6 },
+            //    {6, 4, 3, 1, 7 },
+            //    {23, 45, 32, 11, 34 }
+            //};
+            //foreach (int item in myArray) // вывод в одну строку
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            //int height = myArray.GetLength(0);
+            //int width = myArray.GetLength(1);
+            //for (int i = 0; i < height; i++)
+            //{
+            //    for (int j = 0; j < width; j++)
+            //    {
+            //        Console.Write(myArray[i, j] + "\t");
+            //    }
+            //    Console.WriteLine();
+            //}
+
+            //int[,] myArray = new int[10, 6];
+            //Random random = new Random();
+            //for (int i = 0; i < myArray.GetLength(0); i++)
+            //{
+            //    for (int j = 0; j < myArray.GetLength(1); j++)
+            //    {
+            //        myArray[i, j] = random.Next(0, 250);
+            //    }
+            //}
+            //for (int i = 0; i < myArray.GetLength(0); i++)
+            //{
+            //    for (int j = 0; j < myArray.GetLength(1); j++)
+            //    {
+            //        Console.Write(myArray[i, j] + "\t");
+            //    }
+            //    Console.WriteLine();
+            //}
+
+            //Console.WriteLine("Введите высоту массива");        
+            //int height = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Введите ширину массива");
+            //int width = int.Parse(Console.ReadLine());
+            //int[,] myArray = new int[height, width];      
+            //for (int i = 0; i < myArray.GetLength(0); i++)
+            //{
+            //    for (int j = 0; j < myArray.GetLength(1); j++)
+            //    {
+            //        Console.WriteLine("i: " + i + "j: " + j);
+            //        myArray[i, j] = int.Parse(Console.ReadLine());
+            //    }
+            //}
+            //for (int i = 0; i < myArray.GetLength(0); i++)
+            //{
+            //    for (int j = 0; j < myArray.GetLength(1); j++)
+            //    {
+            //        Console.Write(myArray[i, j] + "\t");
+            //    }
+            //    Console.WriteLine();
+            //}
+
+            //int[][] myArray = new int [5][];
+            //myArray[4] = new int[2];
+            //myArray[0] = new int[5];
+            //Random random = new Random();
+
+            //for (int i = 0; i < myArray.Length; i++)
+            //{
+            //    for (int j = 0; j < myArray[i].Length; j++)
+            //    {
+            //        myArray[i][j] = random.Next(100);
+            //    }
+            //}
+
+            //for (int i = 0; i < myArray.Length; i++)
+            //{
+            //    for (int j = 0; j < myArray[i].Length; j++)
+            //    {
+            //        Console.Write(myArray[i][j] + "\t");
+            //    }
+            //    Console.WriteLine();
+            //}
+
 
         }
     }
